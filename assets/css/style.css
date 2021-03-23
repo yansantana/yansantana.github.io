@@ -1513,6 +1513,7 @@ section {
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
+  background-color: #fff;
 }
 
 .contact .info-box i {
@@ -1540,6 +1541,7 @@ section {
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
   padding: 30px;
+  background-color: #fff;
 }
 
 .contact .php-email-form .error-message {
@@ -1645,7 +1647,6 @@ section {
   padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
-  background: #f1f6fe;
 }
 
 #footer .footer-newsletter {
