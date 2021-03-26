@@ -832,6 +832,10 @@ section {
   padding: 0;
 }
 
+.modal-body {
+  margin-top: 40px !important;
+}
+
 .modally .content ul li {
   display: flex;
   align-items: flex-start;
