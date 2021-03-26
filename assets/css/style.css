@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.5s;
     color: #fff !important;
     background-color: #0000fe;
+    border: 1px solid #fff;
 }
 
 
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar {
   background: #0000fe;
   height: 40px;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
@@ -605,6 +606,10 @@ section {
 
 .section-bg {
   background-color: #f6f9fe;
+}
+.section-bg1 {
+  background-color: #0000fe;
+  color: #fff;
 }
 
 .section-title {
