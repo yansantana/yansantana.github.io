@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/blueojeb/testbluefile/
+    - /bin/cp index.html $DEPLOYPATH
