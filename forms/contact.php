@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 if(isset($_POST['submit'])){
   $emailto = 'booking@bluefileimmigration.com';
@@ -27,27 +26,3 @@ if(isset($_POST['submit'])){
   }else {
     echo "error2";
   }
-=======
-<?php
-if(isset($_POST['submit'])){
-  $emailto = 'booking@bluefileimmigration.com';
-  $toname = 'BlueFile';
-  $emailfrom = $_POST["email"];
-  $fromname = $_POST["name"];
-  $subject = $_POST['subject'];
-  $messagebody = "<b>" . $subject . "</b><br>" . $_POST['message'];;
-  $headers = 
-  'Return-Path: ' . $emailfrom . "\r\n" . 
-  'From: ' . $fromname . ' <' . $emailfrom . '>' . "\r\n" . 
-  'X-Priority: 3' . "\r\n" . 
-  'X-Mailer: PHP ' . phpversion() .  "\r\n" . 
-  'Reply-To: ' . $fromname . ' <' . $emailfrom . '>' . "\r\n" .
-  'MIME-Version: 1.0' . "\r\n" . 
-  'Content-Transfer-Encoding: 8bit' . "\r\n" . 
-  'Content-Type: text/html; charset=UTF-8' . "\r\n";
-  $params = '-f ' . $emailfrom;
-  $test = mail($emailto, $subject, $messagebody, $headers, $params);
-
-  echo ($test) ? 'OK' : 'error';
-}
->>>>>>> 538e0cf909f43a68d71ff9903d40cd2f32bb1fdd
