@@ -254,6 +254,18 @@ h6 {
     max-height: 60px;
 }
 
+.logo3 {
+    max-height: 60px;
+}
+
+.iccrc2 {
+    display: inline;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(163, 163, 163, 1);
+    margin-bottom: -20px;
+}
+
 #header .logo1 img {
     max-height: 45px;
 }
@@ -788,6 +800,7 @@ section {
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .featured-services .icon-box::before {
@@ -1076,6 +1089,7 @@ section {
     padding: 80px 20px;
     transition: all ease-in-out 0.3s;
     background: #fff;
+    cursor: pointer;
 }
 
 .services .icon-box .icon {
@@ -1974,7 +1988,7 @@ section {
 #footer .credits {
     float: right;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.8em;
     color: #444444;
 }
 
@@ -1987,5 +2001,12 @@ section {
     }
     .iccrc {
         display: none;
+    }
+    #header .logo img {
+        max-height: 40px;
+    }
+    #topbar .contact-info i a,
+    #topbar .contact-info i span {
+        font-size: 0.8em;
     }
 }
