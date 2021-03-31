@@ -1092,6 +1092,9 @@ section {
     cursor: pointer;
 }
 
+h3 , h5 {
+    color: #0000fe !important;
+}
 .services .icon-box .icon {
     margin: 0 auto;
     width: 64px;
@@ -1136,6 +1139,7 @@ section {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover .icon i {
     color: #0000fe;
+    border: #0000fe 2px;
 }
 
 .services .icon-box:hover .icon {
