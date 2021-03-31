@@ -1,0 +1,15 @@
+[30-Mar-2021 07:49:26 America/New_York] PHP Notice:  Undefined index: subject in /home/blueojeb/testbluefile/forms/contact.php on line 15
+[30-Mar-2021 07:49:26 America/New_York] PHP Notice:  Undefined index: message in /home/blueojeb/testbluefile/forms/contact.php on line 16
+[30-Mar-2021 07:49:26 America/New_York] PHP Notice:  Undefined index: email in /home/blueojeb/testbluefile/forms/contact.php on line 18
+[30-Mar-2021 07:49:26 America/New_York] PHP Notice:  Undefined index: email in /home/blueojeb/testbluefile/forms/contact.php on line 19
+[30-Mar-2021 07:49:26 America/New_York] PHP Warning:  mail(): Extra header element 'From' cannot be other than string or array. in /home/blueojeb/testbluefile/forms/contact.php on line 23
+[30-Mar-2021 07:49:26 America/New_York] PHP Warning:  mail(): Extra header element 'Reply-To' cannot be other than string or array. in /home/blueojeb/testbluefile/forms/contact.php on line 23
+[30-Mar-2021 08:10:26 America/New_York] PHP Notice:  Undefined index: subject in /home/blueojeb/testbluefile/forms/contact.php on line 15
+[30-Mar-2021 08:10:26 America/New_York] PHP Notice:  Undefined index: message in /home/blueojeb/testbluefile/forms/contact.php on line 16
+[30-Mar-2021 08:10:26 America/New_York] PHP Notice:  Undefined index: email in /home/blueojeb/testbluefile/forms/contact.php on line 18
+[30-Mar-2021 08:10:26 America/New_York] PHP Notice:  Undefined index: email in /home/blueojeb/testbluefile/forms/contact.php on line 19
+[30-Mar-2021 08:10:26 America/New_York] PHP Warning:  mail(): Extra header element 'From' cannot be other than string or array. in /home/blueojeb/testbluefile/forms/contact.php on line 23
+[30-Mar-2021 08:10:26 America/New_York] PHP Warning:  mail(): Extra header element 'Reply-To' cannot be other than string or array. in /home/blueojeb/testbluefile/forms/contact.php on line 23
+[30-Mar-2021 09:09:28 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/blueojeb/testbluefile/forms/contact.php on line 20
+[30-Mar-2021 09:09:58 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/blueojeb/testbluefile/forms/contact.php on line 20
+[30-Mar-2021 09:16:12 America/New_York] PHP Parse error:  syntax error, unexpected 'from' (T_STRING) in /home/blueojeb/testbluefile/forms/contact.php on line 7
