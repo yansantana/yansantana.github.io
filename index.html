@@ -691,14 +691,18 @@
                     ></textarea>
                     </div>
                     <div class="my-3 ">
-                    <div class="loading ">Loading</div>
-                    <div class="error-message "></div>
+                    <div class="loading "></div>
+                    <div class="error-message ">Error Sending</div>
                     <div class="sent-message ">
                         Your message has been sent. Thank you!
                     </div>
                     </div>
                     <div class="text-center ">
+<<<<<<< HEAD
                     <button name="submit" type="submit">Send Message</button>
+=======
+                    <button name="submit " type="submit ">Send Message</button>
+>>>>>>> 538e0cf909f43a68d71ff9903d40cd2f32bb1fdd
                     </div>
                 </form>
                 </div>
@@ -734,9 +738,37 @@
       class="back-to-top d-flex align-items-center justify-content-center "
       ><i class="bi bi-arrow-up-short "></i
     ></a>
+<<<<<<< HEAD
     
     
     
+=======
+    <script>
+        $(document).ready(function () {
+        $(".php-email-form ").on("submit ", function () {
+        // Add text 'loading...' right after clicking on the submit button.
+        $(".loading ").classList.add('d-block');
+
+        var form = $(this);
+        $.ajax({
+            url: "forms/contact.php ",
+            method: form.attr("method "),
+            data: form.serialize(),
+            success: function (result) {
+            if (result == "OK ") {
+                $(".sent-message ").classList.add('d-block');
+            } else {
+                $(".error-message ").classList.add('d-block');;
+            }
+            },
+        });
+
+        // Prevents default submission of the form after clicking on the submit button.
+        return false;
+        });
+    });
+    </script>
+>>>>>>> 538e0cf909f43a68d71ff9903d40cd2f32bb1fdd
     <!-- Vendor JS Files -->
     <script>
       var myModal = document.getElementById('myModal')
