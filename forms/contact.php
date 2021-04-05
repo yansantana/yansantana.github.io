@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-  $emailto = 'booking@bluefileimmigration.com';
+  $emailto = 'santanamarianne.v@gmail.com';
   $toname = 'BlueFile';
   $emailfrom = $_POST["email"];
   $fromname = $_POST["name"];
