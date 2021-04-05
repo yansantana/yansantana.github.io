@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
   'Content-Transfer-Encoding: 8bit' . "\r\n" . 
   'Content-Type: text/html; charset=UTF-8' . "\r\n";
   $params = '-f ' . $emailfrom;
-  $test = mail('<santanamarianne.v@gmail.com>', $subject, $messagebody, $headers, $params);
+  $test = mail('booking@bluefileimmigration.com', $subject, $messagebody, $headers, $params);
   if ($test) {
     header('Location: https://test.bluefileimmigration.com');
   } else {
