@@ -1795,18 +1795,7 @@ h3 , h5 {
     padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
-    background: #0000fe;
-    border: 0;
-    padding: 10px 30px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 4px;
-}
 
-.contact .php-email-form button[type="submit"]:hover {
-    background: #3b8af2;
-}
 
 @-webkit-keyframes animate-loading {
     0% {
@@ -1994,7 +1983,7 @@ h3 , h5 {
 #footer .credits {
     float: right;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     color: #444444;
 }
 
